@@ -1,0 +1,17 @@
+{
+  "editor.formatOnSave": true,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.rulers": [120]
+  },
+  "[c]": {
+    "editor.wordBasedSuggestions": "off",
+    "editor.suggest.insertMode": "replace",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+    "editor.rulers": [80]
+  },
+  "clang.executable": "clang",
+  "clang.cflags": ["-Wall -Wextra -pedantic  -std=c11"],
+  "clangd.arguments": ["-std=c11"]
+}

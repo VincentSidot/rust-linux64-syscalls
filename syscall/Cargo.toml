@@ -1,0 +1,8 @@
+[package]
+name = "linux64_syscall"
+version = "0.1.0"
+authors = ["Vincent S. <v.sidot@aniah.fr>"]
+description = "Linux x86_64 syscall interface"
+
+[dependencies]
+macros = { path = "../macros" }

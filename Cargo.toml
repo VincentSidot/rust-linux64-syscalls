@@ -1,0 +1,5 @@
+[workspace]
+members = [ "examples/signal-handler","macros", "syscall"]
+default-members = ["macros", "syscall"]
+exclude = ["examples/hello-world"]
+resolver = "2"
